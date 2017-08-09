@@ -10,29 +10,15 @@ namespace homework_1
     {
         static void Main(string[] args)
         {
-            int number;
+           string input;
             do
             {
                 Console.WriteLine("gri Andoi amenasirac tiv@");
 
-                number = Convert.ToInt32(Console.ReadLine());
+                input = Console.ReadLine();
             }
-            while (number != 7);
+            while (input != "anasun");
             Console.ReadKey();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         }
     }
 }
